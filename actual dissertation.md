@@ -85,7 +85,7 @@ sns.distplot(df_without_RH['V'])
 
 
 
-![png](output_10_1.png)
+![](images/output_10_1.png)
 
 
 
@@ -101,7 +101,7 @@ sns.distplot(df_without_RH['AP'])
 
 
 
-![png](output_11_1.png)
+![](images/output_11_1.png)
 
 
 
@@ -117,7 +117,7 @@ sns.distplot(df_without_RH['PE'])
 
 
 
-![png](output_12_1.png)
+![](images/output_12_1.png)
 
 
 I deal with the outliers using quantiles.
@@ -155,7 +155,7 @@ sns.distplot(data_cleaned['AT'])
 
 
 
-![png](output_17_1.png)
+![](images/output_17_1.png)
 
 
 
@@ -171,7 +171,7 @@ sns.distplot(data_cleaned['V'])
 
 
 
-![png](output_18_1.png)
+![](images/output_18_1.png)
 
 
 
@@ -187,7 +187,7 @@ sns.distplot(data_cleaned['AP'])
 
 
 
-![png](output_19_1.png)
+![](images/output_19_1.png)
 
 
 
@@ -203,7 +203,7 @@ sns.distplot(data_cleaned['PE'])
 
 
 
-![png](output_20_1.png)
+![](images/output_20_1.png)
 
 
 If there are no outliers, I will use StandardScaler object to transform data into a standard scale.
