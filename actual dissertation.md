@@ -44,7 +44,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![](images/output_5_0.png)
 
 
 I drop the 'RH' column since there is no visible linear relationship between 'PE' and 'RH'.
@@ -69,7 +69,7 @@ sns.distplot(df_without_RH['AT'])
 
 
 
-![png](output_9_1.png)
+![](images/output_9_1.png)
 
 
 
